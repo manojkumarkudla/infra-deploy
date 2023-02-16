@@ -8,4 +8,4 @@ resources:
 patchesStrategicMerge:
 images:
 - name: manojkumarkudla/gitops
-  newTag: hellov1.2
+  newTag: nginx1.1
