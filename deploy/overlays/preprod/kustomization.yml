@@ -5,3 +5,7 @@ nameSuffix: -prd
 resources:
 - ../../bases/app
 - namespace.yml
+patchesStrategicMerge:
+images:
+- name: manojkumarkudla/gitops
+  newTag: hellov1.2
