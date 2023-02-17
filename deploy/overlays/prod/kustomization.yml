@@ -5,6 +5,8 @@ nameSuffix: -01
 resources:
 - ../../bases/app
 - namespace.yml
+transformers:
+- labels.yml
 patchesStrategicMerge:
 images:
 - name: manojkumarkudla/gitops
